@@ -1,0 +1,60 @@
+p {
+    color: gray;
+    font-size: 16px;
+}
+h1 {
+    font-size: 46px;
+}
+h2 {
+    font-size: 32px
+}
+body {
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.1;
+    background-color: white;
+    text-align: center;
+}
+header {
+    background-color: #A5C839;
+    color: white;
+    padding: 1rem 0;
+}   
+nav ul {
+    list-style: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+}
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #f1f1f1;
+    color: white;
+    margin-top: 2rem;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
