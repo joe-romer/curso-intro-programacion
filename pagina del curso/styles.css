@@ -3,12 +3,32 @@ p {
     font-size: 16px;
 }
 h1 {
-    font-size: 46px;
+    font-size: 52px;
 }
 h2 {
-    font-size: 32px
+    font-size: 34px;
+    font-weight: 600;
 }
+
+h3 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
     font-family: "neue-haas-grotesk-display", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -17,27 +37,66 @@ body {
     text-align: center;
 }
 header {
-    background-color: #A5C839;
+    background-color: #004981;
     color: white;
-    padding: 1rem 0;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }   
+
+.Menu-fondo {
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 nav ul {
-    list-style: none;
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 1.5rem;
 }
+
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #004981;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    color: rgb(79, 194, 205);
 }
+
+main {
+    flex-grow: 1;
+}
+
+main ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+main ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+main ul li a{
+    list-style: none;
+}
+
+p {
+    max-width: 500;
+}
+
 section {
     padding: 2rem;
     margin: 1rem auto;
@@ -51,10 +110,27 @@ footer {
     margin-top: 2rem;
 }
 
+button {
+    border: 1px solid #004981;
+    padding: 10px 15px;
+    border-radius: 50px;
+    color: gray;
+    background-color: #ffffff;
+    outline: none;
+}
+button:hover {
+    background-color: rgb(73, 182, 192);
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+}
 footer a {
     text-decoration: none;
 }
 
 footer a:hover {
     text-decoration: underline;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 1rem 0;
 }
