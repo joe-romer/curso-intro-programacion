@@ -82,6 +82,7 @@ main {
     padding: 40px;
 }
 
+
 main ul {
     text-decoration: none;
     list-style: none;
@@ -101,8 +102,11 @@ p {
     max-width: 500;
 }
 
+.Parrafo-home {
+    max-width: 500px;
+}
+
 section {
-    padding: 2rem;
     margin: 1rem auto;
     max-width: 800px;
 }
